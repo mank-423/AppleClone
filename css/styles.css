@@ -1,0 +1,224 @@
+.body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 2;
+}
+
+
+/* Navbar */
+#navbar{
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 100;
+    font-size: small;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+.navbar-brand{
+    margin-left:150px;
+}
+
+li{
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-left: 20px;
+}
+
+.shop-bag{
+    padding-right:0;
+}
+
+.fa-apple-nav{
+    color:gray;
+}
+
+.fa-apple-nav:hover{
+    color:#fff;
+}
+
+
+/* First div */
+
+#intro-one{
+    text-align: center;
+    padding-bottom: 100px;
+    background-color:rgb(0, 0, 0);
+    line-height: 2;
+    
+}
+
+.row-one{
+    height:max-content;
+    background-color: whitesmoke;
+}
+
+.block1{
+    padding-top:100px;
+}
+
+.pro{
+    padding-top:100px;
+    padding-left: 80px;
+}
+
+.available{
+    color:gray;
+}
+
+a{
+    text-decoration: none;
+    font-size:100%;
+    font-weight: 490;
+}
+
+.learn{
+    padding-left: 100px;
+}
+
+.price{
+    padding-right:100px;
+}
+
+.mac-image{
+    height:550px;
+    width: 650px;
+}
+
+.row-link{
+    text-align: center;
+    margin-left: 30%;
+    width:40%;
+}
+
+.row-link-prod{
+    text-align: center;
+    margin-left: 10%;
+    width:77%;
+}
+/* 
+.title{
+    font-size: 60px;
+}
+
+.title-info{
+    font-size: 30px;
+}
+
+.title-prod{
+    font-size: 50px;
+} */
+
+
+/* second-div */
+
+#intro-two{
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    line-height: 2;
+}
+
+
+.macair-image{
+    padding-top: 40px;
+    width: 70%;
+    height: 600px;
+}
+
+.white{
+    color:white;
+}
+
+/* Third div */
+
+#iPhone{
+    text-align: center;
+    padding-top: 50px;
+    line-height: 2;
+    background-color:whitesmoke;
+}
+
+.iphone-pic{
+    padding-top: 30px;
+    height: 60%;
+    width: 50%;
+}
+
+/* Product-div */
+
+
+#products{
+    text-align: center;
+    line-height: 2;
+}
+
+.color-block{
+    background-color:#f7f9f9 ;
+}
+
+.black{
+    background-color: black;
+}
+
+.gold{
+    background-color:goldenrod;
+}
+
+.block1{
+    padding-bottom: 100px;
+}
+
+.block1-2{
+    background-color: #f7f9f9;
+    height:85%;
+}
+
+.block2{
+    margin-top: 50px;
+    padding-top: 7%;
+    height:85% ;
+}
+
+.block3{
+    margin-top: 60px;
+    padding-top: 7%;
+}
+
+.movie{
+    height: 93%;
+    width: 100%;
+    margin-top:30px;
+}
+
+.ganda-image{
+    padding-top: 15%;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.bg-dark{
+    background-color: black;
+}
+
+.card{
+    border-style: none;
+    z-index: -1;
+}
+
+/* Terms and Conditions */
+.terms{
+    padding: 60px 300px 5px 300px;
+    font-size: smaller;
+}
+
+
+@media (min-width:300px) and (max-width:800px) {
+    .terms{
+        padding:10px;
+        /*font-size: smaller;*/
+    }
+}
